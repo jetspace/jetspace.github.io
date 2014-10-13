@@ -1,4 +1,4 @@
-h1, hr {
+h1{
 
 color: #DC5A14;
 text-align: center;
@@ -9,6 +9,14 @@ p {
   
   color: #DC8214;
   text-align: center;
+  
+}
+
+hr {
+  
+  color: #DC5A14;
+  background-color: #DC5A14;
+  
   
 }
 
