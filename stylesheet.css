@@ -1,8 +1,15 @@
-h1 {
+h1, hr {
 
 color: #DC5A14;
 text-align: center;
 
+}
+
+p {
+  
+  color: #DC8214;
+  text-align: center;
+  
 }
 
 body {
