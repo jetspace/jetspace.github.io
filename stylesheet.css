@@ -54,6 +54,16 @@
 
 }
 
+#mainnav li:focus {
+
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px grey;
+	outline: 0;
+
+}
+
+
 #mainnav a {
 
 	color: rgb(20, 20, 20);
