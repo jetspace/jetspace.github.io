@@ -2,7 +2,7 @@
 
 	position: absolute;
 	background-color: #DC5A14;
-	border-bottom: 0.5px solid grey;
+	border-bottom: 0.1px solid grey;
 	box-shadow: grey 0.3px 0.3px 0.3px;
 	width: 100vw;
 	height: 10vh;
@@ -28,41 +28,44 @@
 
 #mainnav {
 
-	position: absolute;
-	right: 0;
-	padding: 0;
+	list-style: none;
+	width: 25em;
+	float: right;
+
 	margin: 0;
-	list-style-type: none;
-	overflow: auto;
+	padding: 0;
+
 
 }
 
 #mainnav li {
 
-	width: 100px;
-	height: 10;
-	max-height: 50px;
-	margin: 10px;
 	float: left;
+	width: 6em;
 	text-align: center;
-	
+	vertical-align: middle;
+	background-color: #DC5A14;
+	height: 100%;
+
+	 transition: all 0.1s ease-out 0.1s; 						/* IE 10 */
+    -webkit-transition: all 0.1s ease-out 0.1s; 	/* Google Chrome */
+    -moz-transition: all 0.1s ease-out 0.1s; 			/* FireFox */
+    -o-transition: all 0.1s ease-out 0.1s; 				/* Opera */
+
 }
 
 #mainnav li:hover {
 
-	background-color: rgba(40, 40, 40, 0.5);
+	background-color: #E88D5C;
 
 }
 
 #mainnav li a {
 
 	color: rgb(40, 40, 40);
+	font-weight: bolder;
+	line-height: 5vh;
 	text-decoration: none;
-	font-weight: bold;	
-	font-family: mono-space;
-	display: block;
-	width: 100%;
-	padding: 2px 0;
 
 }
 
@@ -126,7 +129,7 @@ body {
   margin-left: auto ;
   margin-right: auto ;
 
-  background-color: rgba(80, 80, 80, 0.5);
+  background-color: rgba(80, 80, 80, 0.2);
   border-radius: 4px;
   padding: 1%;
 }
