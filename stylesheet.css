@@ -25,6 +25,33 @@
 
 }
 
+#logo:hover {
+
+	-webkit-animation: logo_hover 0.5s ease-in-out;
+	animation: logo_hover 0.5s ease-in-out;
+
+}
+
+@-webkit-keyframes logo_hover {
+
+	0%{width: 10vh; height: 10vh;}
+	50%{width: 5vh; height: 5vh;}
+	80%{width: 10vh; height: 10vh;}
+	100%{width: 10vh; height: 10vh;}
+	
+
+}
+
+@keyframes logo_hover {
+
+	0%{width: 10vh; height: 10vh;}
+	50%{width: 5vh; height: 5vh;}
+	80%{width: 10vh; height: 10vh;}
+	100%{width: 10vh; height: 10vh;}
+	
+
+}
+
 #mainnav {
 
 	position: absolute;
