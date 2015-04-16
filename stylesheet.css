@@ -10,6 +10,26 @@
 
 }
 
+#mainnav {
+
+	position: absolute;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: auto;
+
+}
+
+#mainnav li {
+
+	width: 100px;
+	margin: 5px;
+	float: left;
+	text-align: center;
+
+}
+
 h1, table{
 
 color: #DC5A14;
