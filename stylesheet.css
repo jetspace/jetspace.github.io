@@ -48,9 +48,9 @@
 
 #mainnav li:hover {
 
-	border: 1px solid black;
+	border: 1px solid grey;
 	border-radius: 5px;
-	box-shadow: inset 1px 1px 1px black;
+	box-shadow: 1px 1px 1px grey;
 
 }
 
