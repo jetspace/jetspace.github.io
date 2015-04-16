@@ -14,12 +14,14 @@
 #logo {
 
 	position: absolute;
-	background: url("img/favicon.png");
+	background: url("img/favicon.png") no-repeat;
+	background-size: cover;
 	max-height: 50px;
 	max-width: 50px;
 	width: 10vw;
 	height: 10vh;
-	left: 0;
+	left: 0px;
+	top: 0px;
 	border: 1px solid black;
 
 }
