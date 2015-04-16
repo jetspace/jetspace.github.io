@@ -138,18 +138,3 @@ body {
   padding: 1%;
 }
 
-#linkbox {
-
-  width: 700px;
-  height: 120px;
-  margin-top: 7.5%;
-  text-align: center ;
-  margin-left: auto ;
-  margin-top: auto;
-  margin-right: auto ;
-
-  background-color: rgba(80, 80, 80, 0.5);
-  border-radius: 4px;
-  padding: 1%;
-
-}
