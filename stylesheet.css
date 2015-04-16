@@ -1,3 +1,15 @@
+#menuebar {
+
+	position: absolute;
+	background-color: #DC5A14;
+	border-bottom: 0.5px solid grey;
+	box-shadow: 0.2px 0.2px 0.2px;
+	width: 100vw;
+	height: 10vh;
+	top: 0;
+
+}
+
 h1, table{
 
 color: #DC5A14;
@@ -43,7 +55,7 @@ hr {
 
 body {
 
-background-color: rgb(40, 40, 40);
+	background-color: #DC5A14;
 
 }
 
@@ -75,11 +87,5 @@ background-color: rgb(40, 40, 40);
   background-color: rgba(80, 80, 80, 0.5);
   border-radius: 4px;
   padding: 1%;
-
-}
-
-a {
-
-	
 
 }
