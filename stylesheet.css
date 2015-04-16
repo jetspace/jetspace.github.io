@@ -11,6 +11,18 @@
 
 }
 
+#logo {
+
+	position: absolute;
+	background: url("img/favicon.png");
+	max-height: 50px;
+	max-width: 50px;
+	width: 10vw;
+	height: 10vh;
+	left: 0;
+
+}
+
 #mainnav {
 
 	position: absolute;
@@ -28,13 +40,8 @@
 	margin: 5px;
 	float: left;
 	text-align: center;
-
+	
 }
-
-/*
-favicon:
-img/favicon
-*/
 
 #mainnav a {
 
