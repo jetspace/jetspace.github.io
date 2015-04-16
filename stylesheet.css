@@ -15,7 +15,7 @@
 
 	position: absolute;
 	right: 0;
-	margin: 1px;
+	margin: 20px;
 	padding: 0;
 	list-style-type: none;
 	overflow: auto;
@@ -33,7 +33,10 @@
 
 #mainnav a {
 
-	color: black;
+	color: rgb(20, 20, 20);
+	text-decoration: none;
+	font-weight: bold;
+	
 
 }
 
