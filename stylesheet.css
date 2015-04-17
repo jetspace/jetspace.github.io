@@ -147,6 +147,7 @@ body {
 	height: 10vh;
 	width: auto;
 	transition: all 1.5s linear;
+	z-index: 1;
 	
 }
 
