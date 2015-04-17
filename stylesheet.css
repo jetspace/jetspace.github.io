@@ -8,6 +8,7 @@
 	height: 10vh;
 	top: 0;
 	max-height: 50px;
+	z-index: 0;
 
 }
 
