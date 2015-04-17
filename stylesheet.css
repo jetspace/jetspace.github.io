@@ -138,3 +138,20 @@ body {
   padding: 1%;
 }
 
+#mainnav div {
+
+	background-color: transparent;
+	position: absolute;
+	max-height: 50px;
+	height: 10vh;
+	right: 0;
+	transition: all 1.5s linear;
+	
+}
+
+
+#mainnav div:hover {
+
+	background-color: rgba(40, 40, 40, 0.75);
+
+}
