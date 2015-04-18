@@ -39,7 +39,8 @@
 
 #mainnav li {
 
-	width: 100%;
+	width: auto;
+	height: 100%;
 	margin: 5px;
 	float: left;
 	text-align: center;
