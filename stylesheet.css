@@ -40,7 +40,9 @@
 #mainnav li {
 
 	width: 100px;
-	margin: 5px;
+	height: 10;
+	max-height: 50px;
+	margin: 0px;
 	float: left;
 	text-align: center;
 	
