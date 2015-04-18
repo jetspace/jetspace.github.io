@@ -43,22 +43,18 @@
 	margin: 5px;
 	float: left;
 	text-align: center;
-	transition: all 1s ease-in-out;
 	
 }
 
-#mainnav li:hover {
-
-	
-
-}
-
-#mainnav a {
+#mainnav li a {
 
 	color: rgb(40, 40, 40);
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bold;	
 	font-family: mono-space;
+	display: block;
+	width: 100%;
+	padding: 2px 0;
 
 }
 
