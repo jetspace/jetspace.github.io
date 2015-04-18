@@ -39,8 +39,6 @@
 
 #mainnav li {
 
-	position: absolute;
-	top: 0;
 	width: 100px;
 	height: 10vh;
 	max-height: 50px;
