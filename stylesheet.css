@@ -30,8 +30,8 @@
 
 	position: absolute;
 	right: 0;
-	top: 0;
 	padding: 0;
+	margin: 0;
 	list-style-type: none;
 	overflow: auto;
 
@@ -39,8 +39,8 @@
 
 #mainnav li {
 
-	width: auto;
-	height: auto;
+	width: 100px;
+	height: 100%;
 	margin: 5px;
 	float: left;
 	text-align: center;
@@ -53,16 +53,6 @@
 	
 
 }
-
-#mainnav li:focus {
-
-	border: 1px solid grey;
-	border-radius: 5px;
-	box-shadow: 1px 1px 1px grey;
-	outline: 0;
-
-}
-
 
 #mainnav a {
 
