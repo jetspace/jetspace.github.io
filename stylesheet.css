@@ -40,10 +40,17 @@
 #mainnav li {
 
 	width: 100px;
+	height: 100%;
 	margin: 5px;
 	float: left;
 	text-align: center;
 	
+}
+
+#mainnav li:hover {
+
+	background-color: rgba(40, 40, 40, 0.5);
+
 }
 
 #mainnav li a {
