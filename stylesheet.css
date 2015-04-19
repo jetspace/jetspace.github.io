@@ -30,6 +30,7 @@
 #logo:hover {
 
 	transform: translateZ(-1vh);
+	-webkit-transform: translateZ(-1vh);
 
 }
 
