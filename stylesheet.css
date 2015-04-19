@@ -30,8 +30,8 @@
 
 #logo:hover {
 
-	transform: scael(10px, 10px);
-	-webkit-transform: scale(10px, 10px);
+	transform: scael(-10px, -10px);
+	-webkit-transform: scale(-10px, -10px);
 
 }
 
