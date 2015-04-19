@@ -186,8 +186,8 @@ body {
 	}
 	.listing {
 	
-		background: rgb(40, 40, 40);
-		
+		background-color: #DC5A14;
+	
 	}
 	
 	.listing tr:hover {
