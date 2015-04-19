@@ -30,8 +30,8 @@
 
 #logo:hover {
 
-	transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
+	transform: scael(10px, 10px);
+	-webkit-transform: scale(10px, 10px);
 
 }
 
