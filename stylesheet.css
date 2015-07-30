@@ -132,7 +132,8 @@ body {
 
 #infobox {
 
-  width: 700px;
+  width: 80vw;
+  height: 45vh;
   margin-top: 30%;
   text-align: center ;
   margin-left: auto ;
