@@ -205,6 +205,12 @@ body {
 	
 	}
 	
+.listing td a {
+
+	text-decoration: none;
+
+}
+	
 .listing tr:hover {
 	
 		background: rgba(0,0,0,0.19);
