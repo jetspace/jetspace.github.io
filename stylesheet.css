@@ -194,4 +194,13 @@ body {
 	
 		background: rgba(0,0,0,0.19);
 		
-	}
+}
+	
+#image_slider {
+
+	width: 80vw;
+	height: 45vh;
+	margin-left: 10vw;
+	margin-top: 27.5vh;
+
+}
