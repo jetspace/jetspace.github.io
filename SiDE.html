@@ -4,8 +4,21 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     <title>JetSpace Project</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    
+    <!-- jQuery library (served from Google) -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<!-- bxSlider Javascript file -->
+			<script src="/bxslider/jquery.bxslider.min.js"></script>
+			<!-- bxSlider CSS file -->
+			<link href="/bxslider/jetspace.bxslider.css" rel="stylesheet" />
   </head>
   <body id="side">
+  
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  	$('.bxslider').bxSlider();
+		});
+ </script>
 
 	<div id="menuebar">
 
@@ -17,18 +30,23 @@
   			<li><a href="status.html">Projects</a></li>
   			<li><a href="download.html">Download</a></li>
   		</ul>
+  		
+  	<div id="image_slider">
+  		<ul class="bxslider">
+  			<li><img src="img/sorry.png" /></li>
+  			<li><img src="img/sorry.png" /></li>
+  			<li><img src="img/sorry.png" /></li>
+  			<li><img src="img/sorry.png" /></li>
+  		</ul>
+  	</div>
 
-  <div id="download_infobox">
+  <div id="infobox">
   <p>
-    We are sorry, but JetSpace is not ready yet, not even in an alpha version, so please come
-    back when it is finished / a bit further...
-    <br>
-    Anyways, if you want to try JetSpace at its current level of developement, you can visit our
-    GitHub page and clone the Repo you want to try. But Please note: all of the tool/configs/scripts
-    are not nearly stable, so you use it on your own risk and without any kind of warranty! For more
-    details view our LICENSE files in the Repos.<br>
-    However, we wish you good luck with JetSpace and do not forget to submit Bugs and Ideas!
-
+   SiDE is a Simple Desktop Enviroment (SImple Desktop Enviroment). It is very simple but it has a modern layout and design. It has a few Programms installed : <br>
+   - SiDE Edit -> A simple Editor <br>
+   - SiDE View -> A Picture viewer <br>
+   - SiDE Files -> A File Manager <br>
+   It is not finished yet, so we dont have any screenshots for you.
   </p>
   </div>
   </body>
