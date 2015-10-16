@@ -1,35 +1,31 @@
 <html>
+
   <head>
-    <meta name="theme-color" content="#DC5A14">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-    <title>JetSpace Project</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="status.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>JetSpace</title>
+
   </head>
-  <body id="download">
 
-	<div id="menuebar">
+  <body>
 
-  	<a href="index.html"><div id="logo"></div></a>
+    <script src="js/base.js"></script>
+    <div id="header">
+      <ul class="nav">
+        <li onclick="openpage('http://github.com/orgs/jetspace')">GitHub</li>
+        <li onclick="openpage('status.html')">Status</li>
+        <li onclick="openpage('download.html')">Download</li>
+      </ul>
+      <div onclick="openpage('index.html')" class="circle jetspace-icon"></div>
+    </div>
 
-  		<ul id="mainnav">
-  			<li><a href="index.html">Home</a></li>
-  			<li><a href="http://github.com/orgs/jetspace">GitHub</a></li>
-  			<li><a href="status.html">Projects</a></li>
-  			<li><a href="download.html">Download</a></li>
-  		</ul>
+    <p class="quote head">- Downloads -</p>
 
-  <div id="download_infobox">
-  <p>
-    We are sorry, but JetSpace is not ready yet, not even in an alpha version, so please come
-    back when it is finished / a bit further...
-    <br>
-    Anyways, if you want to try JetSpace at its current level of developement, you can visit our
-    GitHub page and clone the Repo you want to try. But Please note: all of the tool/configs/scripts
-    are not nearly stable, so you use it on your own risk and without any kind of warranty! For more
-    details view our LICENSE files in the Repos.<br>
-    However, we wish you good luck with JetSpace and do not forget to submit Bugs and Ideas!
+    <h3 style="color:white; font-family: sans-serif; font-size: 20px">Sorry, no downloads available :(</h3>
 
-  </p>
-  </div>
-  </body>
+
+    </body>
+
 </html>

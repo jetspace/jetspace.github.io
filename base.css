@@ -1,0 +1,137 @@
+body {
+  background-image: url("img/bg.png");
+  padding: 1vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+#header {
+  left: 0px;
+  right: 0px;
+  height: 15vh;
+
+  padding-top: 0.5vh;
+  margin-bottom: 5vh;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.jetspace-icon {
+
+  height: 14vh;
+  width:  14vh;
+  margin: 0 auto; /* Centers everything */
+
+  background-image: url("img/favicon.png");
+  background-size: 14vh 14vh;
+  border: 5px solid #FF6600;
+
+  transition: all 0.2s ease-in;
+  cursor: hand;
+
+}
+.jetspace-icon:hover {
+  border-color: white;
+  -webkit-transform: rotate(2deg);
+}
+
+.quote {
+  left: 0px;
+  right: 0px;
+  height: 5vh;
+  width: auto;
+
+  text-align: center;
+
+  font-size: 6vh;
+  font-family: monospace;
+
+  color: #222;
+  text-shadow: 1px 1px 0 rgba(100,100,100,0.6) , -1px -1px 1px rgba(0,0,0,0.6);
+
+  margin-bottom: 12vh;
+
+}
+
+.head {
+  color: #CC5500;
+  font-size: 10vh;
+}
+
+.jumper {
+
+  color: white;
+
+  font-size: 30px;
+  line-height: 40px;
+  background-color: red;
+  display: inline-block;
+
+  text-align: center;
+
+  width: 22vw;
+
+  font-family: sans-serif;
+
+  margin-left: 1vw;
+
+  transition:  all 0.15s ease-in;
+
+}
+
+.jumper:hover {
+  background-color: #666;
+  cursor: hand;
+}
+
+.a {background-color: #CC5500;}.desc {
+  color: #EEE;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.b {background-color: #CC5500;}
+.c {background-color: #CC5500;}
+.d {background-color: #CC5500;}
+
+.nav {
+
+  float: right;
+  right: 0;
+  width: 35vw;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  margin-top: 5vh;
+
+}
+
+.nav li {
+  display: inline-block;
+  float: left;
+  margin-right: 1vw;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 10px;
+  width: 7vw;
+  font-size: 1.5vw;
+  color: white;
+  background-color: #CC5500;
+
+  -webkit-transform: skew(-12deg);
+   -moz-transform: skew(-12deg);
+     -o-transform: skew(-12deg);
+  cursor: hand;
+  transition: all 0.2s ease-in;
+}
+
+.nav li:hover {
+  background-color: #CC9900;
+}

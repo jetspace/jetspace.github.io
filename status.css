@@ -1,0 +1,44 @@
+.status_box {
+
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  background-image: url("img/bg-light.png");
+  box-shadow: 1px 1px 0 rgba(100,100,100,0.6) , -1px -1px 1px rgba(0,0,0,0.6);
+}
+
+.entry {
+  padding: 20px;
+}
+
+.entry p, .entry img{
+  display: inline-block;
+}
+
+.entry p {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.entry img {
+  float: right;
+  margin-top: 15px;
+}
+
+.entry .project {
+
+  font-weight: bold;
+  width: 2vw;
+
+}
+
+.entry .url a, .entry .url {
+
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+
+}
