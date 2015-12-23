@@ -1,0 +1,12 @@
+.aboutentry {
+  font-weight:  bold;
+}
+
+.aboutvalue {
+  font-weight:  normal;
+}
+
+.aboutlink {
+  color: #E64A19;
+  text-decoration: none;
+}

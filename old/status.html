@@ -1,65 +1,73 @@
 <html>
+
   <head>
-    <meta name="theme-color" content="#DC5A14">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-    <title>JetSpace Project</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="status.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>JetSpace</title>
+
   </head>
-  <body id="status">
 
-	<div id="menuebar">
+  <body>
 
-	<a href="index.html"><div id="logo"></div></a>
+    <script src="js/base.js"></script>
+    <div id="header">
+      <ul class="nav">
+        <li onclick="openpage('http://github.com/orgs/jetspace')">GitHub</li>
+        <li onclick="openpage('status.html')">Status</li>
+        <li onclick="openpage('download.html')">Download</li>
+      </ul>
+      <div onclick="openpage('index.html')" class="circle jetspace-icon"></div>
+    </div>
 
-  		<ul id="mainnav">
-  			<li><a href="index.html">Home</a></li>
-  			<li><a href="http://github.com/orgs/jetspace">GitHub</a></li>
-  			<li><a href="status.html">Projects</a></li>
-  			<li><a href="download.html">Download</a></li>
-  		</ul>
+    <p class="quote head">- Status -</p>
 
-  <div id="status_infobox">
-  <p>
-      On This Page, you will find a little overview over all
-      'real' JetSpace Projects. So maybe you are now wondering what
-      real stands for? <br>
-  </p>
-  <p class="notice">
-      JetSpace is not completed yet and it will maybe never be. But Anyway
-      we have some projects which are important and under heavy developement and
-      other which are not really used for the distribution.
-  </p>
-  <p>
+    <div class="status_box">
+
+      <!-- SiDE -->
+      <div class="entry">
+        <p class="project">
+          SiDE
+        </p>
+        <p class="url">
+          <a href="http://github.com/jetspace/desktop">http://github.com/jetspace/desktop</a>
+        </p>
+        <img class="docstate" src="https://readthedocs.org/projects/side/badge/?version=latest"/>
+        <img class="cistate" src="https://travis-ci.org/jetspace/desktop.svg"/>
+      </div>
+
       <br>
 
-      Anyways, In the following list you will find these Projects, their Maintainers and a link to the GitHub Repo.
-  </p>
-      
-      <table class="listing">
-	<thead>
-		<th>Project</th>
-		<th>Maintainer</th>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="ArchSetup.html">ArchSetup (contributing)</a></td>
-			<td>Marius Messerschmidt & <a href="http://www.github.com/antoniovazquezblanco">Antonio Vazquez</a></td>
-		</tr>
-		<tr>
-			<td><a href="config.html">JetSpace Config Files</a></td>
-			<td>Marius Messerschmidt</td>
-		</tr>
-		<tr>
-			<td><a href="index.html">JetSpace Website</a></td>
-			<td>Tom Messerschmidt</td>
-		</tr>
-		<tr>
-			<td><a href="SiDE.html">SiDE Desktop Enviroment<a></td>
-			<td>Marius Messerschmidt</td>
-		</tr>
-	</tbody>
-</table>
+      <!-- ArchSetup  -->
+      <div class="entry">
+        <p class="project">
+          ArchSetup
+        </p>
+        <p class="url">
+          <a href="http://github.com/jetspace/ArchSetup">http://github.com/jetspace/ArchSetup</a>
+        </p>
+        <img class="docstate" src=""/>
+        <img class="cistate" src=""/>
+      </div>
 
-  </div>
-  </body>
+      <br>
+
+      <!-- Website  -->
+      <div class="entry">
+        <p class="project">
+          Website
+        </p>
+        <p class="url">
+          <a href="http://github.com/jetspace/jetspace.github.io">http://github.com/jetspace/jetspace.github.io</a>
+        </p>
+        <img class="docstate" src=""/>
+        <img class="cistate" src=""/>
+      </div>
+
+    </div>
+
+
+    </body>
+
 </html>

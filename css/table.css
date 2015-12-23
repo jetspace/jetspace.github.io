@@ -1,0 +1,26 @@
+.projectlist td, .projectlist th{
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #212121;
+  transition: background 200ms;
+  transition: padding 200ms ease;
+}
+
+.projectlist th {
+  background-color: #AAA;
+}
+
+.projectlist td {
+  background-color: #DDD;
+}
+
+.projectlist {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.projectlist tr:hover > td {
+  background-color: #BBB;
+  padding-top: 30px;
+}

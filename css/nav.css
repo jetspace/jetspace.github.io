@@ -1,0 +1,98 @@
+body {
+  background-color: #EEE;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*
+ *  NAVIGATION
+ */
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin-bottom: 5%;
+}
+
+.naventry {
+    display: inline-block;
+    transition: background-color 200ms;
+    padding: 0;
+}
+
+.naventry:hover {
+    background-color: #111;
+
+}
+
+.naventry a {
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+}
+
+.navactive {
+  background-color: #E64A19;
+}
+
+.navhomeimg img {
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  margin-bottom: -12px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.navhomeimg {
+  display: inline-block;
+}
+
+.navhomeimg img {
+  transition: transform 1s ease;
+}
+
+.navhomeimg:hover > img {
+  transform: rotate(360deg);
+}
+
+.navhometext {
+  display: inline-block;
+  color: white;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.subnav {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  text-align: left;
+  background-color: #212121;
+}
+
+.naventry:hover > ul
+{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.subnav li {
+  transition: background 200ms;
+}
+
+.subnav li:hover {
+  background-color: #111;
+}

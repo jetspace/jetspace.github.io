@@ -1,0 +1,27 @@
+.card {
+  box-sizing: border-box;
+  border: 1px solid #DDD;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 12.5px;
+}
+
+.cardheader {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cardcontent {
+  color: #444;
+  text-align: justify;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.carddate {
+  text-align: right;
+  color: #666;
+  font-size: 10pt;
+  font-style: italic;
+}
